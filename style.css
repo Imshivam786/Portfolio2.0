@@ -205,12 +205,12 @@ section .title::after{
 .home .home-content .right img{
     display: inline-block;
     position: absolute;
-    right: 5vw;
+    right: 0px;
     bottom: 0px;
-    height: 90vh;
+    height: 68vh;
     width: 35vw;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 6vh;
 }
 .home .home-content .text-3 span{
     color: rgb(0, 184, 0);
@@ -510,6 +510,10 @@ footer span a:hover{
 /*Responsive media queries */
 @media (max-width: 1104px) {
     .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
+    .home .home-content .right img{
         height: 350px;
         width: 350px;
     }
