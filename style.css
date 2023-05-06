@@ -207,7 +207,7 @@ section .title::after{
     position: absolute;
     right: 0px;
     bottom: 0px;
-    height: 68vh;
+    height: 70vh;
     width: 35vw;
     object-fit: cover;
     border-radius: 6vh;
