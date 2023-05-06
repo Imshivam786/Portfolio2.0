@@ -199,19 +199,6 @@ section .title::after{
     font-size: 40px;
     margin: 5px 0;
 }
-.home .home-content .right{
-    width: 55%;
-}
-.home .home-content .right img{
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    height: 70vh;
-    width: 35vw;
-    object-fit: cover;
-    border-radius: 6vh;
-}
 .home .home-content .text-3 span{
     color: rgb(0, 184, 0);
     font-weight: 500;
@@ -510,10 +497,6 @@ footer span a:hover{
 /*Responsive media queries */
 @media (max-width: 1104px) {
     .about .about-content .left img{
-        height: 350px;
-        width: 350px;
-    }
-    .home .home-content .right img{
         height: 350px;
         width: 350px;
     }
